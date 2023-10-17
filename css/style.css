@@ -1,3 +1,54 @@
-h1 {
-    color: green;
+:root {
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(red, green, blue);
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    background: var(--green);
+}
+
+h1{
+    color: blue;
+}
+a[href^="http"] {
+    color: red;
+}
+
+.logo {
+    width: 18px;
+    height: 30px;
+    border-radius: 8px;
+    
+}
+
+.mainHeader {
+    background: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul li a {
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.navigation ul li {
+    list-style: none;
+}
+.navigation ul {
+    display: flex;
 }
